@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        showBackground ? "bg-[#2393DD]" : "bg-transparent"
+        showBackground ? "bg-[#2393DD] text-white" : "bg-transparent"
       } "text-white hover:bg-[#2393DD] transition-all ease-in duration-75 z-[100]`}
     >
       <div className="lg:w-[1280px] mx-auto flex items-center justify-between font-medium">
