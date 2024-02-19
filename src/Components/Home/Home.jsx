@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import HomePageMainContainer from "./HomePageMainContainer";
+import HomePageSecondConatiner from "./HomePageSecondConatiner";
+import HomePageThirdContainer from "./HomePageThirdContainer";
 
 function Home() {
+  
   return (
-    <div className="w-full">
-      <div className={`w-full bg-HomePageBG3 md:bg-cover  bg-no-repeat h-[100vh]`}>
-        <Navbar/>
-        <div className="h-[500px] w-full"></div>
+    <div
+      className={`w-full bg-HomePageBG3 bg-fixed bg-cover bg-center bg-no-repeat h-[100vh]`}
+    >
+      <div className="fixed top-0">
+        <Navbar />
+      </div>
+      <div className="w-full">
+        <HomePageMainContainer />
       </div>
       <div>
-        <Footer/>
+        <HomePageSecondConatiner />
+      </div>
+      <div>
+        <HomePageThirdContainer />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
