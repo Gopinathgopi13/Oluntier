@@ -28,12 +28,12 @@ const Navbar = () => {
     <nav
       className={`${
         showBackground ? "bg-[#2393DD] text-white" : "bg-transparent"
-      } "text-white hover:bg-[#2393DD] transition-all ease-in duration-75 z-[100]`}
+      } "text-white hover:bg-[#2393DD] transition-all ease-in duration-75 z-50`}
     >
       <div className="lg:w-[1280px] mx-auto flex items-center justify-between font-medium">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <a href="/" className="md:w-[100%] w-[40%]">
-            <img src={Logo} alt="logo" className="md:cursor-pointer h-12" />
+            <img src={Logo} alt="logo" className="md:cursor-pointer h-12 z-50" />
           </a>
           <div
             className="text-3xl md:hidden flex items-center justify-end w-[10%] text-white"

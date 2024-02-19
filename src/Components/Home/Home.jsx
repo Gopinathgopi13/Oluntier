@@ -11,7 +11,7 @@ function Home() {
     <div
       className={`w-full bg-HomePageBG3 bg-fixed bg-cover bg-center bg-no-repeat h-[100vh]`}
     >
-      <div className="fixed top-0">
+      <div className="fixed top-0 z-50">
         <Navbar />
       </div>
       <div className="w-full">

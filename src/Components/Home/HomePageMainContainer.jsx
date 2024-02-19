@@ -10,8 +10,8 @@ function HomePageMainContainer() {
         <div className=" md:w-[35%] text-lg font-light text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, omnis.
         </div>
-        <div className="flex items-center justify-center ">
-          <button className="learn-more">
+        <div className="flex items-center justify-center">
+          <button className="learn-more z-">
             <span className="circle" aria-hidden="true">
               <span className="icon arrow"></span>
             </span>
