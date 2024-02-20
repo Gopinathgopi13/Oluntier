@@ -1,15 +1,20 @@
 import React from "react";
 
+import Slider from "./Slider/Slider";
+
 function HomePageSecondConatiner() {
   return (
-    <div className="lg:w-[1280px] h-[65vh] mx-auto px-4 text-[#282936] z-30">
-      <div>Lorem ipsum dolor sit amet consectetur.</div>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim impedit
-        laborum animi eum cumque ipsam quibusdam nulla eaque magnam eius, nam
-        molestias voluptatibus soluta.
+    <div className="lg:w-[1280px]  mx-auto px-4 md:py-10 space-y-10 text-[#282936] z-30">
+      <div className="md:text-6xl font-bold text-center">
+        Lorem ipsum dolor consectetur.
       </div>
-      <div></div>
+      <div className="text-center text-lg">
+        Lorem ipsum dolor sit amet adipisicing elit. Enim impedit
+        laborum animi eum cumque .
+      </div>
+      <div>
+        <Slider />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "img": "dining.jpg",
+    "name": "Dining Area"
+  },
+  {
+    "id": 2,
+    "img": "foyer.jpg",
+    "name": "Foyer"
+  },
+  {
+    "id": 3,
+    "img": "balcony.jpg",
+    "name": "Outdoors and Balcony"
+  },
+  {
+    "id": 4,
+    "img": "tvunit.jpg",
+    "name": "TV Unit"
+  },
+  {
+    "id": 5,
+    "img": "kitchen.jpg",
+    "name": "Kitchens"
+  },
+  {
+    "id": 6,
+    "img": "bedroom.jpg",
+    "name": "Bedrooms"
+  },
+  {
+    "id": 7,
+    "img": "bathroom.jpg",
+    "name": "Bathrooms"
+  },
+  {
+    "id": 8,
+    "img": "bedroom.jpg",
+    "name": "Kids Bedroom"
+  },
+  {
+    "id": 8,
+    "img": "poojaroom.jpg",
+    "name": "Pooja Room"
+  }
+]
