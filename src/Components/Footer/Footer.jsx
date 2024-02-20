@@ -41,7 +41,7 @@ function Footer() {
                     href="#"
                     className=" transition hover:opacity-75 dark:text-gray-200"
                   >
-                    SEO Optimisation
+                    Lorem, ipsum.
                   </a>
                 </li>
 
@@ -50,7 +50,7 @@ function Footer() {
                     href="#"
                     className=" transition hover:opacity-75 dark:text-gray-200"
                   >
-                    Web Development
+                    Lorem, ipsum.
                   </a>
                 </li>
 
@@ -59,7 +59,7 @@ function Footer() {
                     href="#"
                     className=" transition hover:opacity-75 dark:text-gray-200"
                   >
-                    Graphic Design
+                    Lorem, ipsum.
                   </a>
                 </li>
 
@@ -68,7 +68,7 @@ function Footer() {
                     href="#"
                     className=" transition hover:opacity-75 dark:text-gray-200"
                   >
-                    Brand Development
+                    Lorem, ipsum.
                   </a>
                 </li>
               </ul>

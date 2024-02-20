@@ -1,6 +1,6 @@
 import React from "react";
 import HomePageSuccess from "../../assets/HomePageSuccess.jpg";
-
+import CountUp from "react-countup";
 function HomePageThirdContainer() {
   return (
     <div className="lg:w-[1280px] h-[65vh] mx-auto flex justify-center md:py-16 px-4 text-[#282936] z-30">
@@ -9,28 +9,43 @@ function HomePageThirdContainer() {
           <div className="px-10 md:text-6xl text-3xl w-[80%] font-semibold">
             Lorem ipsum dolor sit amet.
           </div>
-          <div className="flex">
+          <div className="flex gap-2">
             <div className="space-y-3">
-              <span className="block text-center md:text-5xl text-2xl font-semibold">
-                100+
-              </span>
-              <span className="block text-center md:text-lg text-sm font-medium">
+              <CountUp
+                delay={3}
+                start={0}
+                end={100}
+                duration={4}
+                className="text-center md:text-5xl text-2xl font-semibold"
+              />
+              <span className="text-[#40A2E3] text-3xl font-bold">+</span>
+              <span className="block md:text-lg text-sm font-medium">
                 Project Completed
               </span>
             </div>
             <div className="space-y-3">
-              <span className="block text-center md:text-5xl text-2xl font-semibold">
-                100+
-              </span>
-              <span className="block text-center md:text-lg text-sm font-medium">
+              <CountUp
+                delay={3}
+                start={0}
+                end={50}
+                duration={4}
+                className="text-center md:text-5xl text-2xl font-semibold"
+              />
+              <span className="text-[#40A2E3] text-3xl font-bold">+</span>
+              <span className="block md:text-lg text-sm font-medium">
                 Satisfied Client
               </span>
             </div>
             <div className="space-y-3">
-              <span className="block text-center md:text-5xl text-2xl font-semibold">
-                100+
-              </span>
-              <span className="block text-center md:text-lg text-sm font-medium">
+              <CountUp
+                delay={3}
+                start={0}
+                end={100}
+                duration={4}
+                className="text-center md:text-5xl text-2xl font-semibold"
+              />
+              <span className="text-[#40A2E3] text-3xl font-bold">+</span>
+              <span className="block  md:text-lg text-sm font-medium">
                 Unique Style
               </span>
             </div>

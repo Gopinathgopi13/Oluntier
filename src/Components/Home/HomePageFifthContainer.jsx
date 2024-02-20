@@ -2,12 +2,13 @@ import React from "react";
 import data from "../../Utilities/Designs.json";
 function HomePageFifthContainer() {
   return (
-    <div className="lg:w-[1280px]  mx-auto px-4 md:py-10 text-[#282936]">
+    <div className="lg:w-[1280px]  mx-auto py-20 text-[#282936] overflow-hidden flex flex-col items-center gap-10 border-t-2">
+      <div className="text-center md:text-6xl text-3xl w-[70%]">Infusing Homes with Desire</div>
       <div className="grid md:grid-cols-3 gap-10">
         {data.map((data, i) => {
           return (
             <div
-              class="relative group cursor-pointer group overflow-hidden text-gray-50 w-[400px] h-[250px] hover:duration-700 duration-700"
+              class="relative mx-auto group cursor-pointer group overflow-hidden text-gray-50 w-[400px] h-[250px] hover:duration-700 duration-700"
               key={i}
             >
               <div class="w-full h-full text-gray-800">

@@ -23,7 +23,7 @@ function Home() {
       <div>
         <HomePageSecondConatiner />
       </div>
-      <div>
+      <div >
         <HomePageFifthContainer />
       </div>
       <div>

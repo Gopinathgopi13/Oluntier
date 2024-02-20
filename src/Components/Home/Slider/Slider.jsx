@@ -35,8 +35,8 @@ const Slider = () => {
         slidesPerView={4}
         // navigation
         mousewheel={true}
-        // pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        pagination={{ clickable: true }}
+        // scrollbar={{ draggable: true }}
         // autoplay={{
         //   delay: 1000,
         //   disableOnInteraction: false,
