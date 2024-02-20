@@ -13,3 +13,4 @@ export default {
   },
   plugins: [],
 };
+// https://magickhome.com/india/offerings/
