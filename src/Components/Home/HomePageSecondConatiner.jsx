@@ -5,7 +5,7 @@ import Slider from "./Slider/Slider";
 function HomePageSecondConatiner() {
   return (
     <div className="lg:w-[1280px]  mx-auto px-4 md:py-10 space-y-10 text-[#282936] border-t-2">
-      <div className="md:text-6xl font-bold text-center">
+      <div className="md:text-6xl text-3xl font-bold text-center">
         Lorem ipsum dolor consectetur.
       </div>
       <div className="text-center text-lg">
