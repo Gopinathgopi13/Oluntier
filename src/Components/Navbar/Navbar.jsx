@@ -33,7 +33,11 @@ const Navbar = () => {
       <div className="lg:w-[1280px] mx-auto flex items-center justify-between font-medium">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <a href="/" className="md:w-[100%] w-[40%]">
-            <img src={Logo} alt="logo" className="md:cursor-pointer h-12 z-50" />
+            <img
+              src={Logo}
+              alt="logo"
+              className="md:cursor-pointer h-12 z-50"
+            />
           </a>
           <div
             className="text-3xl md:hidden flex items-center justify-end w-[10%] text-white"
@@ -55,7 +59,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 block">
+            <Link to="/about" className="py-7 block">
               About Us
             </Link>
           </li>
