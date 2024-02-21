@@ -56,11 +56,11 @@ const Navbar = () => {
               Service
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/blogs" className="py-7 block">
               Blogs
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/about" className="py-7 block">
               About Us
@@ -90,11 +90,11 @@ const Navbar = () => {
               Service
             </Link>
           </li>
-          <li className="border-b-2">
+          {/* <li className="border-b-2">
             <Link to="/blogs" className="py-3 px-3 inline-block">
               Blogs
             </Link>
-          </li>
+          </li> */}
 
           <li className="border-b-2">
             <Link to="/" className="py-3 px-3 inline-block">
