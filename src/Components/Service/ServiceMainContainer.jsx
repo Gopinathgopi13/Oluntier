@@ -12,12 +12,12 @@ function ServiceMainContainer() {
         {data.map((data, i) => {
           return (
             <Link to={`/categories/${data.id}`} key={i}>
-              <div className="relative mx-auto container group cursor-pointer group overflow-hidden text-gray-50 w-[400px] h-[300px] hover:duration-700 duration-700">
+              <div className="relative mx-auto container group cursor-pointer md:group overflow-hidden text-gray-50 w-[400px] h-[300px] md:hover:duration-700 duration-700">
                 <div className="w-full h-full text-gray-800">
                   <img src={data.img} className="h-full" alt="" />
                 </div>
-                <div className="absolute bg-gray-50 -left-80 w-auto bg-transparent group-hover:left-5 top-5 group-hover:duration-600 duration-500">
-                  <span className="text-white font-bold text-2xl text">
+                <div className="absolute bg-gray-50 md:-left-80 w-auto bg-transparent md:group-hover:left-5 top-5 md:group-hover:duration-600 duration-500">
+                  <span className="text-white font-bold text-2xl text border-b-2 border-white md:border-none md:pl-5 ">
                     {data.name}
                   </span>
                 </div>
