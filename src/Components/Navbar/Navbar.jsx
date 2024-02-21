@@ -97,12 +97,12 @@ const Navbar = () => {
           </li> */}
 
           <li className="border-b-2">
-            <Link to="/" className="py-3 px-3 inline-block">
+            <Link to="/about" className="py-3 px-3 inline-block">
               About Us
             </Link>
           </li>
           <li className="border-b-2">
-            <Link to="/" className="py-3 px-3 inline-block">
+            <Link to="/contact" className="py-3 px-3 inline-block">
               Contact
             </Link>
           </li>
