@@ -1,0 +1,14 @@
+.text::after {
+  content: " ";
+  position: absolute;
+  bottom: -5px;
+  left: 0px;
+  border-bottom: 2px solid;
+  width: 0px;
+  transition: all 0.9s;
+  transition-delay: 0.1s;
+}
+
+.container:hover .text::after {
+  width: 100%;
+}

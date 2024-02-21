@@ -7,7 +7,9 @@ export default {
         "HomePageBG": "url('/src/assets/HomePageBG.jpg')",
         "HomePageBG2": "url('/src/assets/HomePageBG2.jpg')",
         "HomePageBG3": "url('/src/assets/HomePageBG4.jpg')",
-       "AboutBG": "url('/src/assets/aboutus.jpg')"
+        "AboutBG": "url('/src/assets/aboutus.jpg')",
+        "HomePageBG5": "url('/src/assets/HomePageBG5.jpg')",
+       
       },
     },
   },

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/oluntier_logo_BlueBG.png";
-import NavLinks from "./NavLinks";
 import { IoCloseSharp } from "react-icons/io5";
 import { TiThMenu } from "react-icons/ti";
 
@@ -28,7 +27,7 @@ const Navbar = () => {
     <nav
       className={`${
         showBackground ? "bg-[#2393DD] text-white" : "bg-transparent"
-      } "text-white hover:bg-[#2393DD] transition-all ease-in duration-75 z-50`}
+      } "text-white hover:bg-[#2393DD] hover:text-white transition-all ease-in duration-75 z-50`}
     >
       <div className="lg:w-[1280px] mx-auto flex items-center justify-between font-medium">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
@@ -46,16 +45,20 @@ const Navbar = () => {
             {open ? <IoCloseSharp /> : <TiThMenu />}
           </div>
         </div>
-        <ul className="md:flex hidden items-center justify-center font-[Poppins] w-[40%]">
+        <ul className="md:flex hidden items-center  font-semibold justify-center font-[Poppins] w-[40%]">
           <li>
             <Link to="/" className="py-7 block">
               Home
             </Link>
           </li>
-          <NavLinks />
           <li>
-            <Link to="/" className="py-7 block">
-              Projects
+            <Link to="/service" className="py-7 block">
+              Service
+            </Link>
+          </li>
+          <li>
+            <Link to="/blogs" className="py-7 block">
+              Blogs
             </Link>
           </li>
           <li>
@@ -64,7 +67,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-7 block">
+            <Link to="/contact" className="py-7 block">
               Contact
             </Link>
           </li>
@@ -83,13 +86,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="border-b-2">
-            <Link to="/" className="py-3 px-3 inline-block">
-              Projects
+            <Link to="/Service" className="py-3 px-3 inline-block">
+              Service
             </Link>
           </li>
-          <div className="border-b-2">
-            <NavLinks />
-          </div>
+          <li className="border-b-2">
+            <Link to="/blogs" className="py-3 px-3 inline-block">
+              Blogs
+            </Link>
+          </li>
+
           <li className="border-b-2">
             <Link to="/" className="py-3 px-3 inline-block">
               About Us

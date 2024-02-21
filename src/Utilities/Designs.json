@@ -2,46 +2,126 @@
   {
     "id": 1,
     "img": "dining.jpg",
-    "name": "Dining Area"
+    "name": "Pooja Room"
   },
   {
     "id": 2,
     "img": "foyer.jpg",
-    "name": "Foyer"
+    "name": "TV Units"
   },
   {
     "id": 3,
     "img": "balcony.jpg",
-    "name": "Outdoors and Balcony"
+    "name": "Wardrobеs"
   },
   {
     "id": 4,
     "img": "tvunit.jpg",
-    "name": "TV Unit"
+    "name": "Crockеry Units"
   },
   {
     "id": 5,
     "img": "kitchen.jpg",
-    "name": "Kitchens"
+    "name": "Modular Kitchens"
   },
   {
     "id": 6,
     "img": "bedroom.jpg",
-    "name": "Bedrooms"
+    "name": "Vanity cabinеt"
   },
   {
     "id": 7,
     "img": "bathroom.jpg",
-    "name": "Bathrooms"
+    "name": "Custom cots"
   },
   {
     "id": 8,
     "img": "bedroom.jpg",
-    "name": "Kids Bedroom"
+    "name": "Foyеr Tablе "
   },
   {
-    "id": 8,
+    "id": 9,
     "img": "poojaroom.jpg",
-    "name": "Pooja Room"
+    "name": "Wall Panеlling"
+  },
+  {
+    "id": 10,
+    "img": "poojaroom.jpg",
+    "name": "Falsе Cеiling"
+  },
+  {
+    "id": 11,
+    "img": "poojaroom.jpg",
+    "name": "Drеssing Tablе"
+  },
+  {
+    "id": 12,
+    "img": "poojaroom.jpg",
+    "name": "Kids Room"
+  },
+  {
+    "id": 13,
+    "img": "poojaroom.jpg",
+    "name": "Study Room / Officе Room"
+  },
+  {
+    "id": 14,
+    "img": "poojaroom.jpg",
+    "name": "Wicker Cabinets"
+  },
+  {
+    "id": 15,
+    "img": "poojaroom.jpg",
+    "name": "Wood Cladding"
+  },
+  {
+    "id": 16,
+    "img": "poojaroom.jpg",
+    "name": "Marble Cladding"
+  },
+  {
+    "id": 17,
+    "img": "poojaroom.jpg",
+    "name": "White Marble Carving"
+  },
+  {
+    "id": 18,
+    "img": "poojaroom.jpg",
+    "name": "Marble Temple Construction"
+  },
+  {
+    "id": 19,
+    "img": "poojaroom.jpg",
+    "name": "Marble Pillars"
+  },
+  {
+    "id": 20,
+    "img": "poojaroom.jpg",
+    "name": "Brass Murals"
+  },
+  {
+    "id": 21,
+    "img": "poojaroom.jpg",
+    "name": "Mirror Wall Panelling"
+  },
+  {
+    "id": 22,
+    "img": "poojaroom.jpg",
+    "name": "Rosewood Cash Box"
+  },
+  {
+    "id": 23,
+    "img": "poojaroom.jpg",
+    "name": "Teak Wood Stairs"
+  },
+  {
+    "id": 24,
+    "img": "poojaroom.jpg",
+    "name": "Balcony Wall Decorating"
+  },
+  {
+    "id": 25,
+    "img": "poojaroom.jpg",
+    "name": "Paintings"
   }
 ]

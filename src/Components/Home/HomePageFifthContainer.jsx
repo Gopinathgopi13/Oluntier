@@ -1,11 +1,14 @@
 import React from "react";
 import data from "../../Utilities/Designs.json";
+import { Link } from "react-router-dom";
 function HomePageFifthContainer() {
   return (
     <div className="lg:w-[1280px]  mx-auto py-20 text-[#282936] overflow-hidden flex flex-col items-center gap-10 border-t-2">
-      <div className="text-center md:text-6xl text-3xl w-[70%]">Infusing Homes with Desire</div>
+      <div className="text-center md:text-6xl text-3xl w-[70%]">
+        Infusing Homes with Desire
+      </div>
       <div className="grid md:grid-cols-3 gap-10">
-        {data.map((data, i) => {
+        {data.slice(0, 6).map((data, i) => {
           return (
             <div
               class="relative mx-auto group cursor-pointer group overflow-hidden text-gray-50 w-[400px] h-[250px] hover:duration-700 duration-700"
@@ -21,6 +24,13 @@ function HomePageFifthContainer() {
           );
         })}
       </div>
+      <Link
+        to="/service"
+        className=" w-auto bg-[#40A2E3] p-2 rounded-sm text-white text-xl "
+      >
+        {" "}
+        View More
+      </Link>
     </div>
   );
 }

@@ -21,7 +21,7 @@ function HomePageFourthContainer() {
       <div className="space-y-5">
         {data.map((data, i) => {
           return (
-            <div className="md:flex gap-5">
+            <div className="md:flex gap-5" key={i}>
               <div className="md:w-[50%]">
                 <Swiper
                   modules={[
