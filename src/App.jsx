@@ -10,6 +10,7 @@ import Contact from "./Components/Contact/Contact";
 import Categories from "./Components/Service/Categories";
 
 function App() {
+  
   return (
     <>
       <BrowserRouter>
