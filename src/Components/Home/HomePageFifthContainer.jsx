@@ -10,17 +10,18 @@ function HomePageFifthContainer() {
       <div className="grid md:grid-cols-3 gap-10">
         {data.slice(0, 6).map((data, i) => {
           return (
-            <div
-              class="relative mx-auto group cursor-pointer group overflow-hidden text-gray-50 w-[400px] h-[250px] hover:duration-700 duration-700"
-              key={i}
-            >
-              <div class="w-full h-full text-gray-800">
-                <img src={data.img} className="h-full" alt="" />
+            <Link to={`/categories/${data.id}`} key={i}>
+              <div className="relative mx-auto container group cursor-pointer md:group overflow-hidden text-gray-50 w-[400px] h-[300px] md:hover:duration-700 duration-700">
+                <div className="w-full h-full text-gray-800">
+                  <img src={data.img} className="h-full" alt="" />
+                </div>
+                <div className="absolute bg-gray-50 md:-left-80 w-auto bg-transparent md:group-hover:left-5 top-5 md:group-hover:duration-600 duration-500">
+                  <span className="text-white font-bold text-2xl text border-b-2 border-white md:border-none pl-5 md:pl-0">
+                    {data.name}
+                  </span>
+                </div>
               </div>
-              <div class="absolute bg-gray-50 -bottom-24  p-3 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
-                <span class="text-gray-800 font-bold text-xl">{data.name}</span>
-              </div>
-            </div>
+            </Link>
           );
         })}
       </div>
