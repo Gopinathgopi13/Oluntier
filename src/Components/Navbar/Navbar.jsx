@@ -30,8 +30,8 @@ const Navbar = () => {
       } "text-white hover:bg-[#2393DD] hover:text-white transition-all ease-in duration-75 z-50`}
     >
       <div className="lg:w-[1280px] mx-auto flex items-center justify-between font-medium">
-        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
-          <a href="/" className="md:w-[100%] w-[40%]">
+        <div className="z-50 p-5 lg:w-auto w-full flex justify-between">
+          <a href="/" className="lg:w-[100%] w-[40%]">
             <img
               src={Logo}
               alt="logo"
@@ -45,7 +45,7 @@ const Navbar = () => {
             {open ? <IoCloseSharp /> : <TiThMenu />}
           </div>
         </div>
-        <ul className="md:flex hidden items-center  font-semibold justify-center font-[Poppins] w-[40%]">
+        <ul className="md:flex hidden items-center  font-semibold justify-center font-[Poppins] lg:w-[60%]">
           <li>
             <Link to="/" className="py-7 block">
               Home

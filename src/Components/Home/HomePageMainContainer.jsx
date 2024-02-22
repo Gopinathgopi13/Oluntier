@@ -4,10 +4,10 @@ function HomePageMainContainer() {
   return (
     <div className="lg:w-[1280px] h-[100vh] mx-auto flex justify-center md:py-36 py-80 md:text-[#282936] text-white">
       <div className="flex flex-col items-center space-y-5">
-        <div className="md:text-6xl text-3xl md:w-[60%] text-center font-semibold">
+        <div className="lg:text-6xl text-3xl lg:w-[60%] text-center font-semibold">
           Designing Timeless Spaces, Tailored To You.
         </div>
-        <div className=" md:w-[35%] text-lg font-light text-center">
+        <div className=" lg:w-[35%] text-lg font-light text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, omnis.
         </div>
         <div className="flex items-center justify-center">

@@ -17,8 +17,8 @@ import {
 function HomePageFourthContainer() {
   return (
     <div className="lg:w-[1280px]  mx-auto px-4 md:py-10 space-y-10 text-[#282936] border-t-2">
-      <div className="md:text-6xl text-3xl text-center">Current Offers</div>
-      <div className="space-y-5">
+      <div className="lg:text-6xl text-3xl text-center">Current Offers</div>
+      <div className="lg:space-y-5 space-y-20">
         {data.map((data, i) => {
           return (
             <div className="md:flex gap-5" key={i}>
