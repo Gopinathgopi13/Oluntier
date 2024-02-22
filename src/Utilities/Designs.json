@@ -1,127 +1,97 @@
 [
   {
     "id": 1,
-    "img": "dining.jpg",
+    "img": "poojaroom.jpg",
     "name": "Pooja Room"
   },
   {
     "id": 2,
-    "img": "foyer.jpg",
+    "img": "tvunit.jpg",
     "name": "TV Units"
   },
   {
     "id": 3,
-    "img": "balcony.jpg",
-    "name": "Wardrobеs"
+    "img": "bedroom.jpg",
+    "name": "Bedroom Units"
   },
   {
     "id": 4,
-    "img": "tvunit.jpg",
-    "name": "Crockеry Units"
+    "img": "bathroom.jpg",
+    "name": "Bathroom Units"
   },
   {
     "id": 5,
+    "img": "crockery.jfif",
+    "name": "Crockеry Units"
+  },
+  {
+    "id": 6,
     "img": "kitchen.jpg",
     "name": "Modular Kitchens"
   },
   {
-    "id": 6,
-    "img": "bedroom.jpg",
+    "id": 7,
+    "img": "vanity.jpg",
     "name": "Vanity cabinеt"
   },
   {
-    "id": 7,
-    "img": "bathroom.jpg",
+    "id": 8,
+    "img": "customcot.jpg",
     "name": "Custom cots"
   },
   {
-    "id": 8,
-    "img": "bedroom.jpg",
+    "id": 9,
+    "img": "foyer.jpg",
     "name": "Foyеr Tablе "
   },
   {
-    "id": 9,
-    "img": "poojaroom.jpg",
+    "id": 10,
+    "img": "wall.jpg",
     "name": "Wall Panеlling"
   },
   {
-    "id": 10,
-    "img": "poojaroom.jpg",
+    "id": 11,
+    "img": "fall.jpg",
     "name": "Falsе Cеiling"
   },
   {
-    "id": 11,
-    "img": "poojaroom.jpg",
-    "name": "Drеssing Tablе"
-  },
-  {
     "id": 12,
-    "img": "poojaroom.jpg",
+    "img": "kidsroom.jfif",
     "name": "Kids Room"
   },
   {
     "id": 13,
-    "img": "poojaroom.jpg",
+    "img": "studyroom.jfif",
     "name": "Study Room / Officе Room"
   },
   {
     "id": 14,
-    "img": "poojaroom.jpg",
+    "img": "wicker.jpg",
     "name": "Wicker Cabinets"
   },
   {
     "id": 15,
-    "img": "poojaroom.jpg",
+    "img": "hardwood.jfif",
     "name": "Wood Cladding"
   },
   {
     "id": 16,
-    "img": "poojaroom.jpg",
+    "img": "Marble.jfif",
     "name": "Marble Cladding"
   },
   {
     "id": 17,
-    "img": "poojaroom.jpg",
+    "img": "whiteMarble.jfif",
     "name": "White Marble Carving"
   },
   {
     "id": 18,
-    "img": "poojaroom.jpg",
-    "name": "Marble Temple Construction"
-  },
-  {
-    "id": 19,
-    "img": "poojaroom.jpg",
-    "name": "Marble Pillars"
-  },
-  {
-    "id": 20,
-    "img": "poojaroom.jpg",
-    "name": "Brass Murals"
-  },
-  {
-    "id": 21,
-    "img": "poojaroom.jpg",
-    "name": "Mirror Wall Panelling"
-  },
-  {
-    "id": 22,
-    "img": "poojaroom.jpg",
+    "img": "rosewoos.jfif",
     "name": "Rosewood Cash Box"
   },
   {
-    "id": 23,
-    "img": "poojaroom.jpg",
+    "id": 19,
+    "img": "teakwood.avif",
     "name": "Teak Wood Stairs"
-  },
-  {
-    "id": 24,
-    "img": "poojaroom.jpg",
-    "name": "Balcony Wall Decorating"
-  },
-  {
-    "id": 25,
-    "img": "poojaroom.jpg",
-    "name": "Paintings"
   }
 ]

@@ -8,7 +8,7 @@ import AboutThirdContainer from "./AboutThirdContainer";
 function About() {
   return (
     <div>
-      <div className="bg-HomePageBG2 bg-cover bg-center h-[40vh]  ">
+      <div className="bg-HomePageBG5 bg-cover bg-center h-[40vh]  ">
         <Navbar />
         <div>
           <div className="text-5xl font-bold text-center mt-28">Who we are</div>
@@ -23,9 +23,9 @@ function About() {
       <div>
         <img src={aboutPhoto} alt="" />
       </div>
-      <div>
+      {/* <div>
         <AboutThirdContainer />
-      </div>
+      </div> */}
       <div>
         <Footer />
       </div>

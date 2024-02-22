@@ -2,7 +2,7 @@ import React from "react";
 import CardImage from "../../../assets/CardImage.jpg";
 function SliderCard({ img, name, detail, i }) {
   return (
-    <div className="max-w-sm bg-white rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div className="max-w-sm bg-white h-[400px] rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
       <a href="#">
         <img className="rounded-t-lg" src={img} alt="" />
       </a>

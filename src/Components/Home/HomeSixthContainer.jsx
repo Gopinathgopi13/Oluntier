@@ -11,11 +11,19 @@ const HomeSixthContainer = () => {
             </div>
             <p className="text-gray-700 text-base">
               <p className="inline w-auto">
-                "Customer satisfaction is our top priority. We understand that
+                <RiDoubleQuotesL
+                  className="w-auto inline-block pb-3 mr-2"
+                  size={25}
+                />
+                Customer satisfaction is our top priority. We understand that
                 designing your home can feel daunting, so if there's anything
                 about your design that doesn't meet your expectations, simply
                 reach out to us, and we'll ensure it's corrected to your
-                satisfaction."
+                satisfaction.
+                <RiDoubleQuotesR
+                  className="w-auto inline-block pb-3 ml-2 "
+                  size={25}
+                />
               </p>
             </p>
           </div>

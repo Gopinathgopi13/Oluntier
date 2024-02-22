@@ -37,10 +37,10 @@ const Slider = () => {
         mousewheel={true}
         pagination={{ clickable: true }}
         // scrollbar={{ draggable: true }}
-        // autoplay={{
-        //   delay: 1000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
         breakpoints={{
           0: {
             slidesPerView: 1,

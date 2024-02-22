@@ -1,74 +1,50 @@
 [
   {
-    "name": "  Lorem ipsum dolor",
+    "name": " Modular interiors",
     "price": "47,043",
-    "detail": "Lorem ipsum dolor sit amet adipisicing elit. Enim impedit laborum animi eum cumque .",
-    "image": "3bhk.jpg"
+    "detail": "The minimal space-consuming and aesthetically pleasing modular units will always stay in trend.",
+    "image": "modular.jpg"
   },
   {
-    "name": "Enim impedit laborum",
+    "name": "Luxury Interior",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "3bhk.jpg"
+    "detail": "Luxury interior design is an art form that embraces elegance, quality, and individuality",
+    "image": "luxuryInterior.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Renovations",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "3bhk.jpg"
+    "detail": "Modernize Your Living, Home Renovation for the 21st Century",
+    "image": "renovation.jpg"
   },
   {
-    "name": "  Lorem ipsum dolor",
+    "name": "Commercial Interiors",
     "price": "47,043",
-    "detail": "Lorem ipsum dolor sit amet adipisicing elit. Enim impedit laborum animi eum cumque .",
-    "image": "3bhk.jpg"
+    "detail": "Business Brilliance: Tailored Interiors for Corporate Success.",
+    "image": "Commercial.jpg"
   },
   {
-    "name": "Enim impedit laborum",
+    "name": "Full Home Interior",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "3bhk.jpg"
+    "detail": "Seamless Style: From Living Room to Bedroom, We've Got You Covered.",
+    "image": "fullhome.jpg"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Furniture & Decor",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "3bhk.jpg"
+    "detail": "Furniture Harmony: Creating Balance and Beauty Through Thoughtful Furnishings and Decor.",
+    "image": "furniture.jpg"
   },
   {
-    "name": "  Lorem ipsum dolor",
+    "name": "Residential Interior Designer",
     "price": "47,043",
-    "detail": "Lorem ipsum dolor sit amet adipisicing elit. Enim impedit laborum animi eum cumque .",
-    "image": "3bhk.jpg"
+    "detail": "Homescape Creations: Designing Your Ideal Residential Environment, Inside and Out.",
+    "image": "residential.jpg"
   },
   {
-    "name": "Enim impedit laborum",
+    "name": "Wardrobe Designs",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "3bhk.jpg"
-  },
-  {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "3bhk.jpg"
-  },
-  {
-    "name": "  Lorem ipsum dolor",
-    "price": "47,043",
-    "detail": "Lorem ipsum dolor sit amet adipisicing elit. Enim impedit laborum animi eum cumque .",
-    "image": "3bhk.jpg"
-  },
-  {
-    "name": "Enim impedit laborum",
-    "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "3bhk.jpg"
-  },
-  {
-    "name": "Citralan Puri Serang",
-    "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "3bhk.jpg"
+    "detail": "Wardrobe Wonderland: Discovering Your Signature Style with Our Custom Closet Solutions",
+    "image": "Wardrobe.jpg"
   }
 ]

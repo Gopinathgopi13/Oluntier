@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import HomePageSuccess from "../../assets/HomePageSuccess.jpg";
 import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
+
 function HomePageThirdContainer() {
+  const [counterOn, setCounterOn] = useState(false);
+
   return (
     <div className="lg:w-[1280px] h-[65vh] mx-auto flex justify-center md:py-16 px-4 text-[#282936] z-30">
       <div className="w-full grid md:grid-cols-5">
@@ -9,47 +13,58 @@ function HomePageThirdContainer() {
           <div className="px-10 md:text-6xl text-3xl w-[80%] font-semibold">
             Trust is the process.
           </div>
-          <div className="flex gap-2">
-            <div className="space-y-3">
-              <CountUp
-                delay={3}
-                start={0}
-                end={100}
-                duration={4}
-                className="text-center md:text-5xl text-2xl font-semibold"
-              />
-              <span className="text-[#40A2E3] text-3xl font-bold">+</span>
-              <span className="block md:text-lg text-sm font-medium">
-                Project Completed
-              </span>
+          <ScrollTrigger
+            onEnter={() => setCounterOn(true)}
+            // onExit={() => setCounterOn(false)}
+          >
+            <div className="flex gap-2">
+              <div className="space-y-3">
+                {counterOn && (
+                  <CountUp
+                    delay={0}
+                    start={0}
+                    end={100}
+                    duration={4}
+                    className="text-center md:text-5xl text-2xl font-semibold"
+                  />
+                )}
+                <span className="text-[#40A2E3] text-3xl font-bold">+</span>
+                <span className="block md:text-lg text-sm font-medium">
+                  Project Completed
+                </span>
+              </div>
+              <div className="space-y-3">
+                {counterOn && (
+                  <CountUp
+                    delay={0}
+                    start={0}
+                    end={100}
+                    duration={4}
+                    className="text-center md:text-5xl text-2xl font-semibold"
+                  />
+                )}
+                <span className="text-[#40A2E3] text-3xl font-bold">+</span>
+                <span className="block md:text-lg text-sm font-medium">
+                  Satisfied Client
+                </span>
+              </div>
+              <div className="space-y-3">
+                {counterOn && (
+                  <CountUp
+                    delay={0}
+                    start={0}
+                    end={100}
+                    duration={4}
+                    className="text-center md:text-5xl text-2xl font-semibold"
+                  />
+                )}
+                <span className="text-[#40A2E3] text-3xl font-bold">+</span>
+                <span className="block  md:text-lg text-sm font-medium">
+                  Unique Style
+                </span>
+              </div>
             </div>
-            <div className="space-y-3">
-              <CountUp
-                delay={3}
-                start={0}
-                end={50}
-                duration={4}
-                className="text-center md:text-5xl text-2xl font-semibold"
-              />
-              <span className="text-[#40A2E3] text-3xl font-bold">+</span>
-              <span className="block md:text-lg text-sm font-medium">
-                Satisfied Client
-              </span>
-            </div>
-            <div className="space-y-3">
-              <CountUp
-                delay={3}
-                start={300}
-                end={500}
-                duration={4}
-                className="text-center md:text-5xl text-2xl font-semibold"
-              />
-              <span className="text-[#40A2E3] text-3xl font-bold">+</span>
-              <span className="block  md:text-lg text-sm font-medium">
-                Unique Style
-              </span>
-            </div>
-          </div>
+          </ScrollTrigger>
         </div>
         <div className="md:col-span-3 flex -z-30">
           <div className="relative space-y-3">

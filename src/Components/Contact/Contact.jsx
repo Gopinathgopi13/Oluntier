@@ -13,9 +13,9 @@ function Contact() {
           <div className="text-5xl font-bold text-center mt-16">Contact</div>
         </div>
       </div>
-      <div>
+      {/* <div>
         <ContactMainContainer />
-      </div>
+      </div> */}
       <div>
         <ContactSecondContainer/>
       </div>

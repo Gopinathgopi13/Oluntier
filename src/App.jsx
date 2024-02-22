@@ -8,11 +8,19 @@ import Contact from "./Components/Contact/Contact";
 
 // import CategoriesContainer from "./Components/Service/CategoriesContainer";
 import Categories from "./Components/Service/Categories";
+import { useState } from "react";
 
 function App() {
-  
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById("spinner");
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = "none";
+      setLoading(false);
+    }, 2000);
+  }
   return (
-    <>
+      !loading && (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home></Home>} />
@@ -23,7 +31,7 @@ function App() {
           <Route path="/categories/:id" element={<Categories />} />
         </Routes>
       </BrowserRouter>
-    </>
+      )
   );
 }
 
