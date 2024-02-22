@@ -7,7 +7,7 @@ function HomePageThirdContainer() {
       <div className="w-full grid md:grid-cols-5">
         <div className="md:col-span-2 flex flex-col justify-center md:gap-20 gap-10 items-center pb-5">
           <div className="px-10 md:text-6xl text-3xl w-[80%] font-semibold">
-            Lorem ipsum dolor sit amet.
+            Trust is the process.
           </div>
           <div className="flex gap-2">
             <div className="space-y-3">
@@ -39,8 +39,8 @@ function HomePageThirdContainer() {
             <div className="space-y-3">
               <CountUp
                 delay={3}
-                start={0}
-                end={100}
+                start={300}
+                end={500}
                 duration={4}
                 className="text-center md:text-5xl text-2xl font-semibold"
               />

@@ -6,11 +6,12 @@ function HomePageSecondConatiner() {
   return (
     <div className="lg:w-[1280px]  mx-auto px-4 md:py-10 space-y-10 text-[#282936] border-t-2">
       <div className="md:text-6xl text-3xl font-bold text-center">
-        Lorem ipsum dolor consectetur.
+        Our interior design services are tailored to your space, style, and
+        budget.
       </div>
       <div className="text-center text-lg">
-        Lorem ipsum dolor sit amet adipisicing elit. Enim impedit
-        laborum animi eum cumque .
+        Lorem ipsum dolor sit amet adipisicing elit. Enim impedit laborum animi
+        eum cumque .
       </div>
       <div>
         <Slider />

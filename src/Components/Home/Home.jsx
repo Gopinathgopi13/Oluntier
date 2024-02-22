@@ -6,6 +6,7 @@ import HomePageSecondConatiner from "./HomePageSecondConatiner";
 import HomePageThirdContainer from "./HomePageThirdContainer";
 import HomePageFourthContainer from "./HomePageFourthContainer";
 import HomePageFifthContainer from "./HomePageFifthContainer";
+import HomeSixthContainer from "./HomeSixthContainer";
 
 function Home() {
   return (
@@ -28,9 +29,9 @@ function Home() {
       <div>
         <HomePageFourthContainer />
       </div>
-      {/* <div className="my-20">
+      <div className="my-20">
         <HomeSixthContainer/>
-      </div> */}
+      </div>
       <div className="w-screen bg-[#40A2E3]">
         <Footer />
       </div>

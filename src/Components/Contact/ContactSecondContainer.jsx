@@ -8,10 +8,10 @@ function ContactSecondContainer() {
           className="container flex flex-col md:flex-row lg:max-w-5xl w-full px-5 py-12 md:py-24 mx-auto section"
           id="contact-form"
         >
-          <div className="md:w-1/3 w-full">
-            <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
-              Contact Us
-            </h1>
+          <div className="md:w-1/3 w-full pt-10">
+              {/* <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
+                Contact
+              </h1> */}
             <p className="leading-relaxed text-xl text-gray-900">
               We're here to assist you! If you have any questions or need
               assistance, please feel free to reach out to us.
@@ -52,7 +52,7 @@ function ContactSecondContainer() {
           </div>
           <div className="md:w-2/3 w-full mt-10 md:mt-0 md:pl-28">
             <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
-              Contact Form
+              We’d Love To Hear From You.
             </h1>
             <form action="" method="post">
               <div className="p-2 w-full">
