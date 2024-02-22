@@ -7,20 +7,27 @@ const AboutMainContainer = () => {
         <div className="flex flex-col justify-around pr-5 gap-5">
           <div className="text-6xl">About</div>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            nulla culpa laudantium officia, iure eum nam deserunt, veritatis
-            quod quisquam cupiditate labore eligendi corrupti esse fugiat magni
-            deleniti fuga a? Numquam facere accusantium libero, reiciendis
-            asperiores corporis quis! Doloribus beatae laborum natus magni iusto
-            quidem et minima, quaerat dolor consectetur.
+            Welcome to OL UNTIER, your premier destination for comprehensive
+            interior decoration and construction services across Tamil Nadu and
+            Bangalore. Specializing in individual house and villa construction
+            in Chennai and Bangalore, as well as crafting exquisite marble
+            temples, we pride ourselves on offering a wide range of services to
+            meet all your needs.
           </p>
           <p className="text-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur
-            nulla culpa laudantium officia, iure eum nam deserunt, veritatis
-            quod quisquam cupiditate labore eligendi corrupti esse fugiat magni
-            deleniti fuga a? Numquam facere accusantium libero, reiciendis
-            asperiores corporis quis! Doloribus beatae laborum natus magni iusto
-            quidem et minima, quaerat dolor consectetur.
+            From false ceiling installation to expert flooring solutions,
+            meticulous painting services, and custom railings, our skilled team
+            ensures exceptional quality in every project. We also specialize in
+            woodworks, including wardrobe making, modular kitchen installation,
+            and wall paneling, tailored to suit your preferences and space
+            requirements.
+          </p>
+          <p className="text-xl">
+            At OL UNTIER, we are committed to exceeding your expectations with
+            our attention to detail, craftsmanship, and customer satisfaction.
+            Trust us to transform your space into a haven of style and
+            functionality, with services extending to meet all your interior
+            decoration and construction needs.
           </p>
         </div>
         <div>

@@ -10,7 +10,7 @@ function Service() {
       <div className="bg-HomePageBG5 bg-cover bg-center h-[40vh]  ">
         <Navbar />
         <div>
-          <div className="text-5xl font-bold text-center mt-20">Service</div>
+          <div className="text-5xl font-bold text-center mt-20">Design Offers</div>
         </div>
       </div>
       <div>

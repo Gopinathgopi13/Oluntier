@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 // import "swiper/css/scrollbar";
 // import "./Slider.css";
+import "./ClaimIt.css";
 import {
   Navigation,
   Pagination,
@@ -14,6 +15,7 @@ import {
   Autoplay,
   Mousewheel,
 } from "swiper/modules";
+import { Link } from "react-router-dom";
 function HomePageFourthContainer() {
   return (
     <div className="lg:w-[1280px]  mx-auto px-4 md:py-10 space-y-10 text-[#282936] border-t-2">
@@ -66,6 +68,27 @@ function HomePageFourthContainer() {
             </div>
           );
         })}
+        <div className=" absolute w-auto right-[50%] border-2 p-3 buu">
+          <Link to="/contact">
+            <button id="button">
+              <p>Claim Now</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M14 5l7 7m0 0l-7 7m7-7H3"
+                ></path>
+              </svg>
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

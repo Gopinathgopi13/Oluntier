@@ -7,7 +7,7 @@ import { TiThMenu } from "react-icons/ti";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [showBackground, setShowBackground] = useState(false);
-  const TOP_OFFSET = 900;
+  const TOP_OFFSET = 600;
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY >= TOP_OFFSET) {
@@ -45,15 +45,15 @@ const Navbar = () => {
             {open ? <IoCloseSharp /> : <TiThMenu />}
           </div>
         </div>
-        <ul className="md:flex hidden items-center  font-semibold justify-center font-[Poppins] lg:w-[60%]">
-          <li>
+        <ul className="md:flex hidden items-center  font-semibold justify-around font-[Poppins] w-[40%]">
+          <li className="w-auto">
             <Link to="/" className="py-7 block">
               Home
             </Link>
           </li>
-          <li>
+          <li className="w-auto">
             <Link to="/service" className="py-7 block">
-              Service
+              Design Offers
             </Link>
           </li>
           {/* <li>
@@ -61,12 +61,12 @@ const Navbar = () => {
               Blogs
             </Link>
           </li> */}
-          <li>
+          <li className="w-auto">
             <Link to="/about" className="py-7 block">
               About Us
             </Link>
           </li>
-          <li>
+          <li className="w-auto">
             <Link to="/contact" className="py-7 block">
               Contact
             </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
           </li>
           <li className="border-b-2">
             <Link to="/Service" className="py-3 px-3 inline-block">
-              Service
+              Design Offers
             </Link>
           </li>
           {/* <li className="border-b-2">

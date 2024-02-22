@@ -1,6 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { FaTwitter, FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 function ContactSecondContainer() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_lblleig", "template_kbwnk5v", form.current, {
+        publicKey: "ltQVksKLfZ8gq4WN0",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     <div>
       <section className="text-gray-600 body-font">
@@ -9,13 +31,23 @@ function ContactSecondContainer() {
           id="contact-form"
         >
           <div className="md:w-1/3 w-full pt-10">
-              {/* <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
+            {/* <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
                 Contact
               </h1> */}
-            <p className="leading-relaxed text-xl text-gray-900">
-              We're here to assist you! If you have any questions or need
-              assistance, please feel free to reach out to us.
-            </p>
+            <div className="space-y-3">
+              <p className="leading-relaxed text-xl text-gray-900 space-x-3">
+                <span className="inline-block w-auto">
+                  <FaLocationDot />
+                </span>
+                <span>
+                  1303, Buckingham Street, Egattur, OMR, Chennai - 600130
+                </span>
+              </p>
+              <p className="leading-relaxed text-xl text-gray-900 space-x-3">
+                <FaPhoneAlt className="inline-block w-auto" />
+                <span> 9087637777</span>
+              </p>
+            </div>
             <p className="leading-relaxed text-xl text-gray-900 mt-8">
               Connect with us on social media:
             </p>
@@ -54,11 +86,11 @@ function ContactSecondContainer() {
             <h1 className="text-4xl text-gray-800 sm:text-4xl font-bold title-font mb-4">
               We’d Love To Hear From You.
             </h1>
-            <form action="" method="post">
+            <form ref={form} onSubmit={sendEmail}>
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    for="name"
+                    htmlFor="name"
                     className="leading-7 py-4 text-lg text-gray-900"
                   >
                     Your Name
@@ -66,7 +98,7 @@ function ContactSecondContainer() {
                   <input
                     type="text"
                     id="name"
-                    name="name"
+                    name="user_name"
                     required=""
                     className="w-full bg-white rounded border border-gray-400 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out "
                   />
@@ -75,7 +107,7 @@ function ContactSecondContainer() {
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    for="email"
+                    htmlFor="email"
                     className="leading-7 py-4 text-lg text-gray-900"
                   >
                     Your Email
@@ -83,7 +115,7 @@ function ContactSecondContainer() {
                   <input
                     type="email"
                     id="email"
-                    name="email"
+                    name="user_email"
                     required=""
                     className="w-full bg-white rounded border border-gray-400 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-900 py-1 px-1 leading-8 transition-colors duration-200 ease-in-out "
                   />
@@ -92,7 +124,7 @@ function ContactSecondContainer() {
               <div className="p-2 w-full">
                 <div className="relative">
                   <label
-                    for="message"
+                    htmlFor="message"
                     className="leading-7 py-4 text-lg text-gray-900"
                   >
                     Your Message
