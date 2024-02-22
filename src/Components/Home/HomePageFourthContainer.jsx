@@ -68,13 +68,13 @@ function HomePageFourthContainer() {
             </div>
           );
         })}
-        <div className=" absolute w-auto right-[50%] border-2 p-3 buu">
+        <div className=" lg:absolute w-auto right-[50%] border-2 p-3 buu">
           <Link to="/contact">
             <button id="button">
               <p>Claim Now</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
+                className="h-6 w-6 lg:block hidden"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"

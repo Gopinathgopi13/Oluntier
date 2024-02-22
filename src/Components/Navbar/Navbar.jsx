@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="lg:w-[1280px] mx-auto flex items-center justify-between font-medium">
         <div className="z-50 p-5 lg:w-auto w-full flex justify-between">
-          <a href="/" className="lg:w-[100%] w-[40%]">
+          <a href="/" className="lg:w-[100%] w-[30%]">
             <img
               src={Logo}
               alt="logo"
@@ -45,7 +45,7 @@ const Navbar = () => {
             {open ? <IoCloseSharp /> : <TiThMenu />}
           </div>
         </div>
-        <ul className="md:flex hidden items-center  font-semibold justify-around font-[Poppins] w-[40%]">
+        <ul className="md:flex hidden items-center  font-semibold justify-around font-[Poppins] md:w-[90%] lg:w-[40%]">
           <li className="w-auto">
             <Link to="/" className="py-7 block">
               Home

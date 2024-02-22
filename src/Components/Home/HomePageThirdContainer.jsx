@@ -17,15 +17,15 @@ function HomePageThirdContainer() {
             onEnter={() => setCounterOn(true)}
             // onExit={() => setCounterOn(false)}
           >
-            <div className="flex gap-2">
-              <div className="space-y-3">
+            <div className="flex gap-2 justify-around ">
+              <div className="space-y-3 w-auto ">
                 {counterOn && (
                   <CountUp
                     delay={0}
                     start={0}
                     end={100}
                     duration={4}
-                    className="text-center md:text-5xl text-2xl font-semibold"
+                    className="text-center lg:text-5xl md:3xl text-2xl font-semibold"
                   />
                 )}
                 <span className="text-[#40A2E3] text-3xl font-bold">+</span>
@@ -33,14 +33,14 @@ function HomePageThirdContainer() {
                   Project Completed
                 </span>
               </div>
-              <div className="space-y-3">
+              <div className="space-y-3 w-auto">
                 {counterOn && (
                   <CountUp
                     delay={0}
                     start={0}
                     end={100}
                     duration={4}
-                    className="text-center md:text-5xl text-2xl font-semibold"
+                    className="text-center lg:text-5xl md:3xl text-2xl font-semibold"
                   />
                 )}
                 <span className="text-[#40A2E3] text-3xl font-bold">+</span>
@@ -48,14 +48,14 @@ function HomePageThirdContainer() {
                   Satisfied Client
                 </span>
               </div>
-              <div className="space-y-3">
+              <div className="space-y-3 w-auto">
                 {counterOn && (
                   <CountUp
                     delay={0}
                     start={0}
                     end={100}
                     duration={4}
-                    className="text-center md:text-5xl text-2xl font-semibold"
+                    className="text-center lg:text-5xl md:3xl text-2xl font-semibold"
                   />
                 )}
                 <span className="text-[#40A2E3] text-3xl font-bold">+</span>
@@ -76,7 +76,7 @@ function HomePageThirdContainer() {
                 alt=""
               />
             </div>
-            <div className="md:block hidden border-2 rounded-lg border-[#738873] h-36 w-36 absolute right-0 -bottom-2"></div>
+            <div className="lg:block hidden border-2 rounded-lg border-[#738873] h-36 w-36 absolute right-0 -bottom-2"></div>
           </div>
         </div>
       </div>

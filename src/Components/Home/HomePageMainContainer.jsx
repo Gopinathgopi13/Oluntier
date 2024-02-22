@@ -5,7 +5,7 @@ function HomePageMainContainer() {
   return (
     <div className="lg:w-[1280px] h-[100vh] mx-auto flex justify-center items-center md:text-[#282936] text-white">
       <div className="flex flex-col items-center space-y-5">
-        <div className="lg:text-6xl text-3xl lg:w-[60%] text-center font-semibold">
+        <div className="lg:text-6xl md:text-4xl text-3xl lg:w-[60%] text-center font-semibold">
           Designing Timeless Spaces, Tailored To You.
         </div>
         {/* <div className=" md:w-[35%] text-lg font-light text-center">
