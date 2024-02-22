@@ -45,13 +45,13 @@ const Navbar = () => {
             {open ? <IoCloseSharp /> : <TiThMenu />}
           </div>
         </div>
-        <ul className="md:flex hidden items-center  font-semibold justify-center font-[Poppins] w-[40%]">
-          <li>
+        <ul className="md:flex hidden items-center  font-semibold justify-around font-[Poppins] w-[40%]">
+          <li className="w-auto">
             <Link to="/" className="py-7 block">
               Home
             </Link>
           </li>
-          <li>
+          <li className="w-auto">
             <Link to="/service" className="py-7 block">
               Design Offers
             </Link>
@@ -61,12 +61,12 @@ const Navbar = () => {
               Blogs
             </Link>
           </li> */}
-          <li>
+          <li className="w-auto">
             <Link to="/about" className="py-7 block">
               About Us
             </Link>
           </li>
-          <li>
+          <li className="w-auto">
             <Link to="/contact" className="py-7 block">
               Contact
             </Link>
