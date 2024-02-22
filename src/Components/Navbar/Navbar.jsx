@@ -53,7 +53,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/service" className="py-7 block">
-              Designs
+              Design Offers
             </Link>
           </li>
           {/* <li>
@@ -87,7 +87,7 @@ const Navbar = () => {
           </li>
           <li className="border-b-2">
             <Link to="/Service" className="py-3 px-3 inline-block">
-              Designs
+              Design Offers
             </Link>
           </li>
           {/* <li className="border-b-2">
