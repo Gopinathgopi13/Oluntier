@@ -10,7 +10,7 @@ import HomeSixthContainer from "./HomeSixthContainer";
 
 function Home() {
   return (
-    <div className={`h-screen bg-HomePageBG3 bg-fixed bg-cover bg-no-repeat`}>
+    <div className={`h-screen bg-HomePageBG3 aspect-auto bg-center bg-fixed bg-cover bg-no-repeat`}>
       <div className="fixed top-0 z-50">
         <Navbar />
       </div>
