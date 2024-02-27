@@ -1,7 +1,7 @@
 import React from "react";
 // import data from "../../Utilities/Designs.json";
 import { Link, useParams } from "react-router-dom";
-import data from "../../Utilities/Categories.json";
+import {data} from "../../Utilities/Categories.js";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 function Categories() {
