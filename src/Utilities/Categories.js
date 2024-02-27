@@ -15,6 +15,24 @@ import pr14 from "../../public/static/Pooja Room/14.jpg";
 import pr15 from "../../public/static/Pooja Room/15.jpg";
 import pr16 from "../../public/static/Pooja Room/16.jpg";
 import pr17 from "../../public/static/Pooja Room/17.jpg";
+// tv
+import tv1 from "../../public/static/TV Units/1.jpg";
+import tv2 from "../../public/static/TV Units/2.jpg";
+import tv3 from "../../public/static/TV Units/3.jpg";
+import tv4 from "../../public/static/TV Units/4.jpg";
+import tv5 from "../../public/static/TV Units/5.jpg";
+import tv6 from "../../public/static/TV Units/6.jpg";
+import tv7 from "../../public/static/TV Units/7.jpg";
+import tv8 from "../../public/static/TV Units/8.jpg";
+import tv9 from "../../public/static/TV Units/9.jpg";
+import tv10 from "../../public/static/TV Units/10.jpg";
+import tv11 from "../../public/static/TV Units/11.jpg";
+import tv12 from "../../public/static/TV Units/12.jpg";
+import tv13 from "../../public/static/TV Units/13.jpg";
+import tv14 from "../../public/static/TV Units/14.png";
+import tv15 from "../../public/static/TV Units/15.jpg";
+import tv16 from "../../public/static/TV Units/16.jpg";
+import tv17 from "../../public/static/TV Units/17.jpg";
 export let data = [
   {},
   {
@@ -48,27 +66,23 @@ export let data = [
     Content:
       "Slееk linеs, contеmporary matеrials, and intеlligеnt storagе options convеrgе to crеatе a TV unit that is a functional nеcеssity and a stylish cеntrеpiеcе for your living room.",
     img: [
-      "../../public/TV Units/1.jpg",
-      "../../public/TV Units/2.jpg",
-      "../../public/TV Units/3.jpg",
-      "../../public/TV Units/4.jpg",
-      "../../public/TV Units/5.jpg",
-      "../../public/TV Units/6.jpg",
-      "../../public/TV Units/7.jpg",
-      "../../public/TV Units/8.jpg",
-      "../../public/TV Units/9.jpg",
-      "../../public/TV Units/10.jpg",
-      "../../public/TV Units/11.jpg",
-      "../../public/TV Units/12.jpg",
-      "../../public/TV Units/13.jpg",
-      "../../public/TV Units/14.png",
-      "../../public/TV Units/15.jpg",
-      "../../public/TV Units/16.jpg",
-      "../../public/TV Units/17.jpg",
-      "../../public/TV Units/18.jpg",
-      "../../public/TV Units/19.jpg",
-      "../../public/TV Units/20.jpg",
-      "../../public/TV Units/21.jpg",
+      tv1,
+      tv2,
+      tv3,
+      tv4,
+      tv5,
+      tv6,
+      tv7,
+      tv8,
+      tv9,
+      tv10,
+      tv11,
+      tv12,
+      tv13,
+      tv14,
+      tv15,
+      tv16,
+      tv17
     ],
   },
   {
